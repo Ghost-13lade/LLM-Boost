@@ -1,0 +1,41 @@
+# LLM Boost Dependencies
+# Note: mlx-lm is NOT included by default
+# Run setup_wizard.py to install it conditionally for Apple Silicon
+
+# LLM API
+openai>=1.0.0
+
+# Vector Database & Embeddings
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Search Tools
+duckduckgo-search>=4.0.0
+
+# CLI & Output
+colorama>=0.4.6
+
+# Configuration
+python-dotenv>=1.0.0
+
+# Voice / Speech-to-Text (optional)
+# SpeechRecognition uses Google's free API (zero local dependencies)
+SpeechRecognition>=3.10.0
+# Note: openai-whisper is NOT included (heavy dependency)
+# Install separately with: pip install openai-whisper
+
+# Web UI (Streamlit)
+streamlit>=1.28.0
+# Optional: Voice input for Streamlit
+# streamlit-mic-recorder>=0.0.8
+
+# Scientific Computing (for Python Interpreter)
+numpy>=1.24.0
+
+# Benchmark & Testing
+rich>=13.0.0
+datasets>=2.14.0  # HuggingFace datasets for GSM8K benchmark
+pandas>=2.0.0
+
+# File watching (for Streamlit)
+watchdog>=3.0.0
