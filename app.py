@@ -259,23 +259,23 @@ def parse_and_display_response(response_text: str):
     
     if has_reasoning:
         with st.expander("🎭 Show Agent Debate", expanded=False):
-            # Harper (The Skeptic) - Fact Check
+            # Dan (The Skeptic) - Fact Check
             if fact_check:
-                st.markdown("### 🛡️ Harper (The Skeptic)")
+                st.markdown("### 🛡️ Dan (The Skeptic)")
                 st.markdown("*Fact-checker & Hallucination Killer*")
                 st.markdown(fact_check.group(1).strip())
                 st.markdown("---")
             
-            # Benjamin (The Architect) - Logic
+            # Deepak (The Architect) - Logic
             if logic:
-                st.markdown("### 📐 Benjamin (The Architect)")
+                st.markdown("### 📐 Deepak (The Architect)")
                 st.markdown("*Logic & First-Principles Thinker*")
                 st.markdown(logic.group(1).strip())
                 st.markdown("---")
             
-            # Lucas (The Visionary) - Creative
+            # Stephanie (The Visionary) - Creative
             if creative:
-                st.markdown("### 🎨 Lucas (The Visionary)")
+                st.markdown("### 🎨 Stephanie (The Visionary)")
                 st.markdown("*Lateral Thinker*")
                 st.markdown(creative.group(1).strip())
                 st.markdown("---")

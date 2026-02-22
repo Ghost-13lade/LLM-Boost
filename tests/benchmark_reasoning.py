@@ -433,9 +433,9 @@ Your verdict:"""
 
 The data shows that the **Debate & Reflect** architecture effectively unlocks latent reasoning capabilities:
 
-1. **Harper** fact-checks each step
-2. **Benjamin** breaks problems into atomic steps
-3. **Lucas** challenges assumptions
+1. **Dan** fact-checks each step
+2. **Deepak** breaks problems into atomic steps
+3. **Stephanie** challenges assumptions
 4. **Captain** synthesizes the final answer
 
 > *"I didn't just give it a calculator. I gave it a better brain."*

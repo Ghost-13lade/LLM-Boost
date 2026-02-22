@@ -33,9 +33,9 @@ A standard 70B model has ~70B active parameters.
 Every query goes through a strict cognitive pipeline:
 1.  **🔍 Context Injection**: Pulls real-time data from **DuckDuckGo** + **ChromaDB** (Long-term memory).
 2.  **🗣️ Agent Debate**:
-    -   🛡️ **Harper**: Fact-checker (Grills the RAG data).
-    -   📐 **Benjamin**: Logic Enforcer (Writes **Python code** for math).
-    -   🎨 **Lucas**: Lateral Thinker (Breaks assumptions).
+    -   🛡️ **Dan**: Fact-checker (Grills the RAG data).
+    -   📐 **Deepak**: Logic Enforcer (Writes **Python code** for math).
+    -   🎨 **Stephanie**: Lateral Thinker (Breaks assumptions).
     -   ⚓ **Captain**: Synthesizes the final answer.
 3.  **🔁 Auto-Reflection**: If confidence is < 8/10, the system automatically rejects the answer and forces a retry.
 
